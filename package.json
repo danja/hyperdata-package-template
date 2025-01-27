@@ -1,0 +1,24 @@
+{
+  "name": "hyperdata-package-template",
+  "version": "1.0.0",
+  "description": "Common setup for tools",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json",
+    "rp": "repomix -c repomix.config.json . && repomix -c repomix-docs.config.json . "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.5.0",
+    "jasmine-browser-runner": "^2.5.0",
+    "jasmine-core": "^5.5.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "jsdoc": "^4.0.4",
+    "repomix": "^0.2.23",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}

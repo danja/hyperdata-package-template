@@ -1,0 +1,34 @@
+{
+    "output": {
+        "filePath": "./repomix-docs.md",
+        "headerText": "ex docs",
+        "removeComments": false
+    },
+    "include": [
+        "**/*.md"
+    ],
+    "ignore": {
+        "useDefaultPatterns": false,
+        "customPatterns": [
+            "docs/jsdoc",
+            "docs/postcraft/cache",
+            "docs/postcraft/content-static",
+            "docs/postcraft/layouts",
+            "docs/postcraft/manifest.ttl",
+            "docs/postcraft/media",
+            "docs/postcraft/public",
+            "data",
+            ".nyc_output",
+            ".env",
+            "**/_*",
+            "node_modules",
+            "*.log",
+            "**/*repomix*.txt",
+            "**/*repomix*.md",
+            "**/*.html",
+            "**/data/*",
+            "**/*copy*.js",
+            "**/conversations.json"
+        ]
+    }
+}
